@@ -1,0 +1,26 @@
+div.navbar {
+    width: 90%;
+    text-align: center;
+    background-color: lightcoral;
+    box-shadow: 10px 10px black;
+    padding: 5px;
+    position: static;
+    display: block;
+    margin: auto;
+    margin-bottom: 13px;
+}
+div.page {
+    width: 75%;
+    background-color: lightblue;
+    box-shadow: 10px 10px black;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    margin-bottom: 13px;
+}
+html {
+    background-image: url(./backimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
