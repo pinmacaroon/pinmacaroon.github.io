@@ -47,3 +47,7 @@ hr {
     border: 1px black solid;
 }
 
+s {
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+}
