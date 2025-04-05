@@ -1,10 +1,71 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>pinmacaroon</title>
-</head>
-<body>
-    <h1>hello there!</h1>
-    <p>this is my little corner of the web, soon to be a real page!</p>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>pinmacaroon</title>
+        <link rel="stylesheet" href="/res/index.css">
+        <link rel="icon" type="image/png" href="/res/favicon.png">
+        <script src="/res/index.js"></script>
+    </head>
+    <body>
+        <div class="center">
+            <p>
+                <img
+                    src="/res/pfp_nikotol_xoxo.png"
+                    height="150"
+                    style="vertical-align: middle"
+                    onclick="pinclick()"
+                    id="pinimg"
+                >
+                <span style="font-size: 18pt; font-weight: 700">pin</span>
+                <span style="margin-left: 6pt">
+                    <a href="/index.html">index</a>
+                </span>
+                <span style="margin-left: 6pt">
+                    <a href="/contact.html">contact</a>
+                </span>
+            </p>
+        </div>
+        <div id="cmain" class="center">
+            <h1>hello there!</h1>
+            <p>
+                this is my little corner of the web. you can find some contacts,
+                project and other stuff here! (also finally made a site that
+                doesnt look like its straight from the 90's)
+            </p>
+            <hr>
+            <ul>
+                <li>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Libero, nostrum.
+                </li>
+                <li>
+                    <ul>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, odit.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, odit.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, odit.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, odit.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, odit.</li>
+                    </ul>
+                </li>
+                <li>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Libero, nostrum.
+                </li>
+                <li>
+                    <ul>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, odit.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, odit.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, odit.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, odit.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, odit.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="messagebox">
+            <span id="messageboxtext"></span>
+            <a href="#" onclick="closemsgbox()" style="margin-top: 5px"
+            >close</a>
+        </div>
+    </body>
 </html>
