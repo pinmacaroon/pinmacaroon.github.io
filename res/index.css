@@ -51,3 +51,8 @@ s {
     text-decoration: line-through;
     text-decoration-style: wavy;
 }
+
+img#secret_gif {
+    background-color: black;
+    visibility: hidden;
+}
