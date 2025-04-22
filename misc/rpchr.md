@@ -47,6 +47,6 @@
 * Nationality: [`todo`]
 * Ethnicity: [`todo`]
 * Hobbies: hiking and camping
-* Style: 
+* Style: [`todo`]
 * Scars: none
-* FC: 
+* FC: ![fc](./rpchr.png)
