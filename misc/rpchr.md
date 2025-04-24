@@ -24,7 +24,7 @@
 * Age: ~17-18
 * Sexuality: bi
 * Personality: usually very joyful and sweet. very much cares about their friends in need.
-* Backstory: [`time to annoy arch with this >:3`]
+* Backstory: they had a pretty regular childhood, nothing much of note happened, up until one night their parents didnt return home. turns out, they were got into "a car accident" (killed by monsters). they were put into the care of their grandfather, but he didnt care much about them. they started spending their days after school out in the woods, alone. after many years of ||being neglected by their grandpa||, as they were chilling in their hideout, a satyr found them. the satyr explained to him what he is: a demigod. he led them to **𝓒𝓪𝓶𝓹 𝓛𝓐𝓝**...
 
 ### Godly Side
 
@@ -34,7 +34,7 @@
   * **Aerokinesis**
   * manifesting semi solid wings that can be used for short flights (other that that its just there)
   * can give you pollen allergies >:3
-* Fatal Flaw (optional): overly people pleaser
+* Fatal Flaw: overly people pleaser
 
 ### Other Details
 
