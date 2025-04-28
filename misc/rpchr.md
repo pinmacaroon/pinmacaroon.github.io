@@ -16,7 +16,7 @@
 
 ### Basic Details
 
-* Name (First and last name at least): Zephyr [`last name here idk`]
+* Name (First and last name at least): Zephyr Booker
 * Birthday: february 29th
 * Nicknames: Zeph
 * Gender: male
@@ -44,9 +44,7 @@
 * Dislikes: too much heat, shouting
 * Health conditions:
 * Fears: blood, global warming
-* Nationality: [`todo`]
-* Ethnicity: [`todo`]
 * Hobbies: hiking and camping
-* Style: [`todo`]
+* Style: *you decide :3*
 * Scars: none
-* FC: ![fc](./rpchr.png)
+* FC: ![fc](https://pinmacaroon.github.io/rpchr.png)
