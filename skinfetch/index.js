@@ -63,6 +63,9 @@ async function onsubmit2() {
 
 window.addEventListener("load", function () {
     $("#name_field").val(getCookie("lastusername"));
+    if(new URLSearchParams().has("name")){
+        $("#name_field").val(new URLSearchParams().get("name"));
+    }
     $('#slider_val').html($('#size_field').val());
     onsubmit2();
 });
