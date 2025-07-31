@@ -15,6 +15,32 @@ body {
     */
 }
 
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+@keyframes blink {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: black;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.blink {
+    color: black;
+    animation: blink 0.7s steps(1, start) infinite;
+}
+
 header {
     margin-top: 27px;
 }
@@ -44,6 +70,10 @@ s {
 small {
     color: #d8d8d8;
     font-style: italic;
+}
+
+a {
+    font-weight: bold;
 }
 
 h1, h2 {
@@ -82,7 +112,27 @@ main div.box div.titlebar {
     text-align: left;
 }
 
+@keyframes header_banner_image_wobble {
+    0% {
+        padding-top: 0px;
+    }
+    25% {
+        padding: 15px;
+    }
+    50% {
+        padding-bottom: 0px;
+    }
+    75% {
+        padding: 15px;
+    }
+    100% {
+        padding-top: 0px;
+    }
+}
+
 img#header_banner_image {
     display: block;
     margin: 0 auto;
+    padding: 15px;
+    /*animation: header_banner_image_wobble 1s steps(1, start) infinite;*/
 }
