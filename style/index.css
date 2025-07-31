@@ -1,0 +1,88 @@
+* {
+    text-align: center;
+}
+
+body {
+    all: unset;
+    background-color: #000;
+    background: url(/resource/back.gif);
+    font-family: serif;
+    color: whitesmoke;
+    /*
+    background: -moz-linear-gradient(purple, black);
+    background: linear-gradient(purple, black);
+    background-size: cover;
+    */
+}
+
+header {
+    margin-top: 27px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    border: 4px outset black;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+
+p {
+    font-size: 14pt;
+    letter-spacing: 0.3px;
+}
+
+b {
+    font-size: larger;
+}
+
+s {
+    text-decoration: line-through wavy black;
+}
+
+small {
+    color: #d8d8d8;
+    font-style: italic;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h3, h4, h5, h6 {
+    font-style: italic;
+}
+
+main div.box_holder {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+    min-width: 600px;
+}
+
+main div.box {
+    border: 4px outset black;
+    padding: 0;
+    margin: 4px;
+    background-color: gray;
+}
+
+main div.box div.main {
+    
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+main div.box div.titlebar {
+    padding: 1px;
+    margin: 0;
+    background: linear-gradient(to right, #805580,#800080);
+    text-align: left;
+}
+
+img#header_banner_image {
+    display: block;
+    margin: 0 auto;
+}
