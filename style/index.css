@@ -52,6 +52,54 @@ nav {
     padding: 0;
     margin: 0;
     background-color: gray;
+    text-align: start;
+    z-index: 100;
+}
+
+nav * {
+    text-align: center;
+}
+
+*[title] {
+    cursor: help;
+}
+
+li {
+    list-style-position: inside;
+    font-size: 14pt;
+}
+
+img#about_page_trinklet {
+    position: absolute;
+    left: -2px !important;
+    top: 140px !important;
+    right: -153.794px !important;
+    pointer-events: none;
+}
+
+img#about_page_trinklet2 {
+    position: absolute;  
+    left: 80px !important;
+    top: 229px !important;
+    pointer-events: none;
+}
+
+img#about_page_trinklet3 {
+    position: absolute;  
+    left: 254px !important;
+    top: -1px !important;
+    pointer-events: none;
+    border: 2px black inset;
+}
+
+div#oc_about * {
+    text-align: right;
+}
+
+img#index_trinklet {
+    position: absolute;
+    inset: -6px -128.119px 133px 722px !important;
+    pointer-events: none;
 }
 
 p {
@@ -59,8 +107,13 @@ p {
     letter-spacing: 0.3px;
 }
 
+i {
+    color: greenyellow;
+}
+
 b {
     font-size: larger;
+    color: yellow;
 }
 
 s {
@@ -76,12 +129,16 @@ a {
     font-weight: bold;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-transform: uppercase;
     text-decoration: underline;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
     font-style: italic;
 }
 
@@ -100,7 +157,7 @@ main div.box {
 }
 
 main div.box div.main {
-    
+
     padding-left: 17px;
     padding-right: 17px;
 }
@@ -108,7 +165,7 @@ main div.box div.main {
 main div.box div.titlebar {
     padding: 1px;
     margin: 0;
-    background: linear-gradient(to right, #805580,#800080);
+    background: linear-gradient(to right, #805580, #800080);
     text-align: left;
 }
 
@@ -116,15 +173,19 @@ main div.box div.titlebar {
     0% {
         padding-top: 0px;
     }
+
     25% {
         padding: 15px;
     }
+
     50% {
         padding-bottom: 0px;
     }
+
     75% {
         padding: 15px;
     }
+
     100% {
         padding-top: 0px;
     }
