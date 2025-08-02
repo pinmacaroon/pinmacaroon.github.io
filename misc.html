@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pin's digital dwelling: index</title>
+    <title>pin's digital dwelling: misc</title>
     <link rel="shortcut icon" href="/resource/macaroon.png" type="image/png">
     <link rel="stylesheet" href="/style/index.css">
     <link rel="stylesheet" href="/style/famfamfam-silk.css">
-    <script src="/script/main.js"></script>
     <script src="/script/jquery.js"></script>
+    <script src="/script/filebrowser_epic.js"></script>
 </head>
 
 <body>
@@ -25,38 +25,19 @@
         <a href="/index.html"><img src="/resource/banner.gif" alt="TODO" id="header_banner_image"></a>
         <p><small>
             pin they/them<br>
-            "<span id="quote_span">i wish the quotes worked</span>"
         </small></p>
     </header>
     <main>
         <div class="box_holder">
             <div class="box">
                 <div class="titlebar">
-                    <div class="famfamfam-silk house"></div> welcome!
-                </div>
-                <div class="main" style="position: relative;">
-                    <img src="/resource/chr4.png" width="191px" id="index_trinklet" alt="">
-                    <h1>welcome</h1>
-                    <p>welcome, digital traveler, to my humble dwelling in the world of the <b class="blink">internet</b>!</p>
-                    <p>
-                        you youngsters with your fancy straw pages and pronoun pages and git hubs.
-                        well, <i>back in my day</i>, everyone who dared to use the wide web for any purpose 
-                        other than chatting on irc would need to create their own site. that site would be known
-                        as a <b>homepage</b>. a place to express yourself, share your interests in hope
-                        of finding new friends and impressing your geeky classmates. <small>and of course to dump all
-                        your unfinished stuff and todo lists but that would be hidden under a bazillion layers
-                        of subpaths.</small>
-                    </p>
-                    <p>here you will be able to find out about me, what i do, what im interested in and how to get in touch with me!</p>
-                    <p><div class="famfamfam-silk lightbulb"></div><small><span class="blink">pro tip</span>: use the navigation bar at the top to get to the subpages!</small><div class="famfamfam-silk lightbulb"></div></p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="titlebar">
-                    <div class="famfamfam-silk picture"></div> shitpost of the day&trade;
+                    <div class="famfamfam-silk folder"></div> misc
                 </div>
                 <div class="main">
-                    <img src="" alt="shitpost of the day" id="shitpost_img" width="255" height="191">
+                    <form onsubmit="goto_onsub();return false;">path: <span style="color: black;">misc</span><input type="text" id="path_box"><input type="submit" value="go"></form>
+                    <ul id="filebrowser_ul">
+                        <li>e</li>
+                    </ul>
                 </div>
             </div>
             <small>this is the 4th revision i struggle trough, i hope it sticks finally.</small>

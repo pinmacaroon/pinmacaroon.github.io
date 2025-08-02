@@ -1,0 +1,207 @@
+* {
+    text-align: center;
+}
+
+body {
+    all: unset;
+    background-color: #000;
+    background: url(/resource/back.gif);
+    font-family: serif;
+    color: whitesmoke;
+    /*
+    background: -moz-linear-gradient(purple, black);
+    background: linear-gradient(purple, black);
+    background-size: cover;
+    */
+}
+
+img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+@keyframes blink {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: black;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.blink {
+    color: black;
+    animation: blink 0.7s steps(1, start) infinite;
+}
+
+header {
+    margin-top: 27px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    border: 4px outset black;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    text-align: start;
+    z-index: 100;
+}
+
+nav * {
+    text-align: center;
+}
+
+*[title] {
+    cursor: help;
+}
+
+li {
+    list-style-position: inside;
+    font-size: 14pt;
+}
+
+img#about_page_trinklet {
+    position: absolute;
+    left: -2px !important;
+    top: 140px !important;
+    right: -153.794px !important;
+    pointer-events: none;
+}
+
+img#about_page_trinklet2 {
+    position: absolute;  
+    left: 80px !important;
+    top: 229px !important;
+    pointer-events: none;
+}
+
+ul#filebrowser_ul * {
+    text-align: left;
+}
+
+#path_box {
+    text-align: left;
+}
+
+img#about_page_trinklet3 {
+    position: absolute;  
+    left: 254px !important;
+    top: -1px !important;
+    pointer-events: none;
+    border: 2px black inset;
+}
+
+div#oc_about * {
+    text-align: right;
+}
+
+img#index_trinklet {
+    position: absolute;
+    inset: -6px -128.119px 133px 722px !important;
+    pointer-events: none;
+}
+
+p {
+    font-size: 14pt;
+    letter-spacing: 0.3px;
+}
+
+i {
+    color: greenyellow;
+}
+
+b {
+    font-size: larger;
+    color: yellow;
+}
+
+s {
+    text-decoration: line-through wavy black;
+}
+
+small {
+    color: #d8d8d8;
+    font-style: italic;
+}
+
+a {
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-style: italic;
+}
+
+main div.box_holder {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+    min-width: 600px;
+}
+
+main div.box {
+    border: 4px outset black;
+    padding: 0;
+    margin: 4px;
+    background-color: gray;
+}
+
+main div.box div.main {
+
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+main div.box div.titlebar {
+    padding: 1px;
+    margin: 0;
+    background: linear-gradient(to right, #805580, #800080);
+    text-align: left;
+}
+
+@keyframes header_banner_image_wobble {
+    0% {
+        padding-top: 0px;
+    }
+
+    25% {
+        padding: 15px;
+    }
+
+    50% {
+        padding-bottom: 0px;
+    }
+
+    75% {
+        padding: 15px;
+    }
+
+    100% {
+        padding-top: 0px;
+    }
+}
+
+img#header_banner_image {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    /*animation: header_banner_image_wobble 1s steps(1, start) infinite;*/
+}
