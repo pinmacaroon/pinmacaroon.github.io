@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pin's digital dwelling: contact</title>
+    <title>pin's digital dwelling: misc</title>
     <link rel="shortcut icon" href="/resource/macaroon.png" type="image/png">
     <link rel="stylesheet" href="/style/index.css">
     <link rel="stylesheet" href="/style/famfamfam-silk.css">
+    <script src="/script/jquery.js"></script>
+    <script src="/script/filebrowser_epic.js"></script>
 </head>
 
 <body>
@@ -19,6 +21,7 @@
         <a href="/misc.html">misc</a>
     </nav>
     <header>
+        <!--https://internet-janitor.itch.io/wigglypaint-->
         <a href="/index.html"><img src="/resource/banner.gif" alt="TODO" id="header_banner_image"></a>
         <p><small>
             pin they/them<br>
@@ -28,20 +31,13 @@
         <div class="box_holder">
             <div class="box">
                 <div class="titlebar">
-                    <div class="famfamfam-silk phone_add"></div> get in touch
+                    <div class="famfamfam-silk folder"></div> misc
                 </div>
                 <div class="main">
-                    <h2>places where you can find me:</h2>
-                    <ul>
-                        <li>discord: <i title="id: 757998017382187110">pinmacaroon</i></li>
-                        <li>bsky: <a target="_blank" href="https://bsky.app/profile/pinmacaroon.bsky.social">@pinmacaroon.bsky.social</a></li>
-                        <li>steam: <a target="_blank" href="https://steamcommunity.com/id/pinmac/">pinmac</a></li>
-                        <li>github: <a target="_blank" href="https://github.com/pinmacaroon">pinmacaroon</a></li>
-                        <li>reddit: <a target="_blank" href="https://old.reddit.com/user/Mark-Reddit-123/">u/Mark-Reddit-123</a><small>(if you want to use that for some reason)</small></li>
-                        <li>roadblocks: <a target="_blank" href="https://www.roblox.com/users/2587417660/profile">pin</a></li>
-                        <li>modrinth: <a target="_blank" href="https://modrinth.com/user/nPlbakrl">pinmacaroon</a></li>
+                    <form onsubmit="goto_onsub();return false;">path: <span style="color: black;">misc</span><input type="text" id="path_box"><input type="submit" value="go"></form>
+                    <ul id="filebrowser_ul">
+                        <li>e</li>
                     </ul>
-                    <p>want to ask something? want a commission or just want to hang out? feel free to send me a message, most preferably on discord!</p>
                 </div>
             </div>
             <small>this is the 4th revision i struggle trough, i hope it sticks finally.</small>

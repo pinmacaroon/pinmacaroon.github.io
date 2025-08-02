@@ -84,6 +84,14 @@ img#about_page_trinklet2 {
     pointer-events: none;
 }
 
+ul#filebrowser_ul * {
+    text-align: left;
+}
+
+#path_box {
+    text-align: left;
+}
+
 img#about_page_trinklet3 {
     position: absolute;  
     left: 254px !important;
